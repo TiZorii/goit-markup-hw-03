@@ -1,0 +1,246 @@
+/* Body */
+
+:root {
+    --white: #fff;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --navyblue: #2E2F42;
+    --ocean: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header */
+.upper-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--iris);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.upper-logo-part {
+    font-family: "Raleway", sans-serif;
+    color: var(--navyblue);
+}
+
+.navigator-list-item {
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.navigator-list-item:hover,
+.navigator-list-item:focus {
+    color: var(--ocean);
+    text-decoration: underline;
+}
+
+.contact-list {
+    font-style: normal;
+}
+
+.contact-list-item {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.contact-list-item:hover,
+.contact-list-item:focus {
+    color: var(--ocean);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* section 1 */
+
+.hero {
+    background: var(--navyblue);
+}
+
+.hero-tittle {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background: var(--iris);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    cursor: pointer;
+    background: var(--ocean);
+}
+
+/* section 2 */
+
+
+.goal-tittle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.goal-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* section 3 */
+
+.project-tittle {
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* section 4 */
+
+.team {
+    background: var(--cloud);
+}
+
+.team-tittle {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-list-item {
+    list-style-type: none;
+    background: var(--white);
+
+}
+
+.team-list-tittle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.team-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Footer */
+
+.bottom {
+    background-color: var(--navyblue);
+}
+
+.bottom-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--iris);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bottom-logo-part {
+    color: var(--cloud);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.bottom-text {
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Portfolio */
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    color: var(--iris);
+    background: var(--cloud);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    color: var(--white);
+    background: var(--ocean);
+}
+
+.portfolio-card {
+    background: var(--white);
+}
+
+.card-tittle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.card-text {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
