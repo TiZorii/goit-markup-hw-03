@@ -108,8 +108,8 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .upper-logo-part {
@@ -173,11 +173,13 @@ img {
     background: var(--navyblue);
     height: 600px;
     flex-shrink: 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container {
     display: block;
-    padding: 188px 0;
+
 }
 
 .hero-tittle {
@@ -223,7 +225,7 @@ img {
 
 /* section 2 */
 
-.goal-container {
+.goal {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -254,7 +256,7 @@ img {
 
 /* section 3 */
 
-.project-container {
+.project {
     padding-bottom: 120px;
 }
 
