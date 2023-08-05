@@ -256,12 +256,6 @@ img {
     width: calc((100% - 3*16px) / 3);
 }
 
-.project-item {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .project-tittle {
     color: var(--navyblue);
     font-size: 36px;
