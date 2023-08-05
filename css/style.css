@@ -435,7 +435,6 @@ img {
 .portfolio-card {
     background: var(--white);
     height: 420px;
-    border: 1px solid var(--cornflower);
     width: calc((100% - 2*24px) / 3);
 }
 
