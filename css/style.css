@@ -224,7 +224,8 @@ img {
 /* section 2 */
 
 .goal-container {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .goal-list {
@@ -439,7 +440,7 @@ img {
 }
 
 .portfolio-card-container {
-    padding: 32px 16px;
+    padding: 32px 16px 32px 16px;
     border: 1px solid var(--cornflower);
     border-top: none;
 }
